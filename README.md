@@ -10,7 +10,7 @@
   
 使用须知:  
 1.安卓手机,需要root权限.  
-2.手机分辨率1920*1080.如果需要使用其他分辨率 请自行修改.  
+2.手机分辨率1920*1080.如果需要使用其他分辨率 请自行修改.(打开开发者模式,有一个定位你点击坐标的功能,可以拿到x和y)  
 3.需要手机不关屏幕,建议买个二奶机连接充电线在公司对手机长期充电  
 3.修改类在com.ojama.myapplication.service.HonestService中的hoest函数,对打卡的实现.  
 4.具体实现轮询的线程为com.ojama.myapplication.service.JusticeThread,里面的run函数.
